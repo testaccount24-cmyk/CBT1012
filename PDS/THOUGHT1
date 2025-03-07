@@ -1,0 +1,79 @@
+           General Notes About z/OS Systems Programming
+
+1.  The system is vast.  Nobody seems to know all of it.  The idea
+    is to learn how to use the parts that you will need to use, in
+    your job.
+
+2.  Systems programmers back up everything.  We are like soccer goal
+    keepers.  We are called upon to be the ultimate "safety net" to
+    recover a broken system or lost data.
+
+3.  My first day on the job, I learned the "Fundamental Rule of
+    System Programming".  ALWAYS LOOK AT THE MESSAGES.
+
+4.  The system is always growing.  But the way IBM made it, it is also
+    upward compatible.  There are some programs that are over 40 years
+    old, and they still run "out of the box".
+
+5.  One of the primary things to learn about z/OS systems programming,
+    is how the various components of the system "hang together", how
+    each component operates, and how they interact with each other.
+    FOLLOW AND HEED THE SYSTEM MESSAGES...!!  They will tell you a
+    lot.
+
+6.  IBM is a software house (even though they are big).  They have to
+    pay their programmers and schedule the work they do.  Therefore,
+    IBM programmers do not have the freedom to develop whatever tools
+    they like.  Others have to do so.
+
+    If these "others" are commercial vendors, then they have to do
+    their development on expensive IBM mainframe machines, so they
+    have big overhead, and they have to charge a lot for their work.
+    Therefore "vendor supported programs", being expensive to buy,
+    aren't found in all z/OS shops.  If you learn to use one of these,
+    and you change jobs, then you might not be able to do the tasks
+    that you are used to doing, because the only way you know how to
+    do them, is with this expensive vendor software tool product.
+
+    Therefore, my idea is to get used to doing your job with FREE TOOLS
+    which are user-writtten, many of which can be found on the CBT Tape,
+    and which can be installed at any z/OS installation for free.
+    That's just my opinion, and it is how I have set myself up for work.
+
+    It is also "not bad" to use "vanilla IBM tools" such as IPCS, which
+    are found on ALL IBM z/OS SYSTEMS.  Then, if you change jobs, you
+    can still use the techniques that you have learned.
+
+7.  Always keep all your tools, as much as possible, IN ONE SET OF
+    LIBRARIES, so they can be installed quickly, and they don't
+    interfere with the general setup of the installation.
+
+8.  As much as possible, always keep personal copies of all your tools.
+    Don't trust ANYONE, to supply copies later, if you've lost yours.
+    We keep copies of useful tools, such as MCNVTCAT, which have become
+    unsupported, for ourselves.  Don't be foolish.  Always keep copies
+    of tools that you have written yourself.  Sometimes, there are
+    contractual obligations of "intellectual property", especially if
+    you work for a vendor, so don't violate those.  But don't be stupid
+    either.
+
+9.  Try, as much as possible, to keep your own work isolated from the
+    people in the rest of the shop.
+
+10. We have faced restrictions from management, in many shops, and we
+    have developed ways and means to get around them in our personal
+    work, not affecting others, or affecting them minimally.  We also
+    do not want to affect the security of the shop, in general.  After
+    all, it is our job to keep the shop safe (from intruders, etc.)
+    But at the same time, we need our "system doctor" tools, so we can
+    do our own work.
+
+11. DO NOT DO ANYTHING TO JEOPARDIZE YOUR JOB.  This comes first and
+    foremost.  You are there to "protect and serve", not to harm the
+    people who pay your salary.  When in doubt, protect management.
+    They come FIRST (even if you think they're wrong), but always
+    "use your head".  It's like driving a car.  You always have to
+    think clearly and try to make the right decisions.  Same thing
+    when it comes to conducting yourself intelligently at your job.
+    THINK CLEARLY AND TRY TO MAKE THE RIGHT DECISIONS.
+

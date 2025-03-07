@@ -1,0 +1,45 @@
+          User-written Tools, IBM Tools, and Vendor Tools
+
+1.  One nice thing about user-written tools (say, from the CBT Tape),
+    is that source code is usually included, so that you can fix it if
+    you need to, or you can learn coding techniques from looking at the
+    code.
+
+2.  Software vendors generally will not show you source code, because
+    they want to protect their "intellectual property".  It cost them a
+    lot of money to develop that code, and they don't want anyone to
+    steal it.
+
+3.  IBM will sometimes show you their code, and sometimes not.  This is
+    something historical.  At one time, IBM distributed most of their
+    source code (for the operating system), either in microfiche, or on
+    disk files.  They generally don't show you their newer code.  It
+    has a designation of "OCO", or "Object Code Only".
+
+4.  No matter what language you code in, it is good to know some
+    Assembler Language.  The more of it you know, the better.  It will
+    help you understand "what the machine is doing".  Some higher-level
+    languages, such as COBOL, can show generated Assembler code in the
+    compiler listings.  It's nice to be able to understand that.
+
+5.  I don't care what anyone says about this, but it is nice to be able
+    to disassemble, either load modules or object code.  It might not
+    tell you too much about what is going on, but (depending on your
+    knowledge level), it will always tell you SOMETHING.  Learn how to
+    do it.
+
+6.  Learn to diagnose what is going on in the system, to "nose it out".
+    A good tool for that is SHOWzOS, from CBT Files 492 and 614.  You
+    might not understand all the stuff that SHOWzOS will show you, but
+    when you need to know something, it very well might be there.
+
+    There are many other good tools as well, which show you PARTS of
+    the system.  The more of these you learn to use, the better.
+
+7.  Get to learn about APF-authorization.  It is a bit tricky for
+    beginners, but the reward FAR OUTWEIGHS the effort needed to learn
+    about it.  Systems programmers absolutely need to know about
+    running authorized code, when, where, and how.  And at the same
+    time, you have to protect the integrity of the system you are
+    caring for.  Safety first.
+
